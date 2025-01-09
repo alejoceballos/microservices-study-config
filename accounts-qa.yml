@@ -1,4 +1,4 @@
 build:
   name: Accounts Service
-  version: q1
+  version: qa1
   profile: QA
