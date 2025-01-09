@@ -19,5 +19,5 @@ logging:
 
 build:
   name: Loans Service
-  version: dev1
+  version: d1
   profile: DEFAULT

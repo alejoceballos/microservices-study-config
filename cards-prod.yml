@@ -1,4 +1,4 @@
 build:
   name: Cards Service
-  version: prod1
+  version: p1
   profile: PRODUCTION
