@@ -1,8 +1,12 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:cardsdb
-    username: sa
-    password: ''
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cards:3306/cardsdb
+    username: root
+    password: root
+    sql:
+      init:
+        mode: always
   jpa:
     show-sql: true
     properties:

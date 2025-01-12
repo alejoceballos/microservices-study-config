@@ -1,8 +1,12 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:accountsdb
-    username: sa
-    password: ''
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://accounts:3306/accountsdb
+    username: root
+    password: root
+    sql:
+      init:
+        mode: always
   jpa:
     show-sql: true
     properties:

@@ -1,8 +1,12 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:loansdb
-    username: sa
-    password: ''
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://loans:3306/loansdb
+    username: root
+    password: root
+    sql:
+      init:
+        mode: always
   jpa:
     show-sql: true
     properties:
