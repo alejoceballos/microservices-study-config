@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://loans:3306/loansdb
+    url: jdbc:mysql://mysqldb:3306/loansdb
     username: root
     password: root
     sql:
