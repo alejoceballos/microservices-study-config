@@ -1,4 +1,4 @@
 build:
   name: Accounts Service
-  version: d1
+  version: dev1
   profile: DEFAULT
