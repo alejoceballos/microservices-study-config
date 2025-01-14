@@ -1,0 +1,13 @@
+build:
+  name: Accounts Service
+  version: d1
+  profile: DEFAULT
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
