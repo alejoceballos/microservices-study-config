@@ -1,7 +1,5 @@
-build:
-  name: Accounts Service
-  version: d1
-  profile: DEFAULT
+server:
+  port: 8070
 
 eureka:
   instance:
